@@ -93,11 +93,11 @@ OPENEDX_SITES = {
     'bits':{
         'url':'http://any-learn.bits-pilani.ac.in',
         'courseware-selector': ('nav', {'aria-label': 'Course Navigation'}),
-    }
+    },
     'b9n':{
         'url': 'https://academy.b9lab.com',
         'courseware-selector': ('nav', {'aria-label': 'Course Navigation'}),
-    }
+    },
     'b9s':{
         'url': 'https://academy.b9lab.com',
         'courseware-selector': ('section', {'aria-label': 'Course Navigation'}),
