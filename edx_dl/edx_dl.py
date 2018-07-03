@@ -94,6 +94,14 @@ OPENEDX_SITES = {
         'url':'http://any-learn.bits-pilani.ac.in',
         'courseware-selector': ('nav', {'aria-label': 'Course Navigation'}),
     }
+    'b9n':{
+    'url':'https://academy.b9lab.com',
+    'courseware-selector': ('nav', {'aria-label': 'Course Navigation'}),
+    }
+    'b9s':{
+    'url':'https://academy.b9lab.com',
+    'courseware-selector': ('section', {'aria-label': 'Course Navigation'}),
+    }
 }
 BASE_URL = OPENEDX_SITES['edx']['url']
 EDX_HOMEPAGE = BASE_URL + '/login_ajax'
