@@ -95,12 +95,12 @@ OPENEDX_SITES = {
         'courseware-selector': ('nav', {'aria-label': 'Course Navigation'}),
     }
     'b9n':{
-    'url':'https://academy.b9lab.com',
-    'courseware-selector': ('nav', {'aria-label': 'Course Navigation'}),
+        'url': 'https://academy.b9lab.com',
+        'courseware-selector': ('nav', {'aria-label': 'Course Navigation'}),
     }
     'b9s':{
-    'url':'https://academy.b9lab.com',
-    'courseware-selector': ('section', {'aria-label': 'Course Navigation'}),
+        'url': 'https://academy.b9lab.com',
+        'courseware-selector': ('section', {'aria-label': 'Course Navigation'}),
     }
 }
 BASE_URL = OPENEDX_SITES['edx']['url']
